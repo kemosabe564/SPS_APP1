@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/wifi_info"
+        android:layout_width="277dp"
+        android:layout_height="39dp"
+        android:baselineAligned="false"
+        android:text="wifi info"
+        tools:layout_conversion_absoluteHeight="69dp"
+        tools:layout_conversion_absoluteWidth="214dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/acc_info"
+        android:layout_width="278dp"
+        android:layout_height="42dp"
+        android:baselineAligned="false"
+        android:text="acc info"
+        tools:layout_conversion_absoluteHeight="53dp"
+        tools:layout_conversion_absoluteWidth="171dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <Button
+        android:id="@+id/bt_start"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:text="collecting data"
+        tools:layout_conversion_absoluteHeight="81dp"
+        tools:layout_conversion_absoluteWidth="108dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <Button
+        android:id="@+id/bt_stop"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:text="stop collecting"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="217dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <TextView
+        android:id="@+id/training_overview"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:text="training set overview"
+        tools:layout_conversion_absoluteHeight="53dp"
+        tools:layout_conversion_absoluteWidth="214dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <Button
+        android:id="@+id/bt_feature"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:text="feature" />
+
+    <TextView
+        android:id="@+id/wifi_feature"
+        android:layout_width="231dp"
+        android:layout_height="31dp"
+        android:text="wifi feature"
+        tools:layout_conversion_absoluteHeight="74dp"
+        tools:layout_conversion_absoluteWidth="483dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/acc_feature"
+        android:layout_width="232dp"
+        android:layout_height="36dp"
+        android:text="acc feature"
+        tools:layout_conversion_absoluteHeight="47dp"
+        tools:layout_conversion_absoluteWidth="483dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+
+    <EditText
+        android:id="@+id/cell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter the cell number"
+        android:inputType="textPersonName"
+        tools:layout_conversion_absoluteHeight="45dp"
+        tools:layout_conversion_absoluteWidth="483dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <EditText
+        android:id="@+id/movement"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="movement"
+        android:inputType="textPersonName"
+        tools:layout_conversion_absoluteHeight="45dp"
+        tools:layout_conversion_absoluteWidth="483dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="470dp" />
+    <EditText
+        android:id="@+id/experimentNo"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="experiment No"
+        android:inputType="textPersonName"
+        tools:layout_conversion_absoluteHeight="45dp"
+        tools:layout_conversion_absoluteWidth="483dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <Button
+        android:id="@+id/bt_testing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="where are me, what am I doing"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="156dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:text="where are me, what am I doing" />
+    android:scrollbars="vertical"
+        android:fadeScrollbars="false"/>
+</LinearLayout>
